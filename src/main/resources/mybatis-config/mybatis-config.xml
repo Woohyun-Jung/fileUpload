@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  
+  <!-- mybatis 설정파일 type에 명시뇐 클래스를 함축된 이름으로 사용한다. -->
+  <configuration>
+  
+  	<typeAliases>
+  	
+  		<typeAlias type="com.team404.command.FreeBoardVO" alias="FreeBoardVO" />
+  		<typeAlias type="com.team404.command.FreeReplyVO" alias="FreeReplyVO" />
+  		<typeAlias type="com.team404.command.UserVO" alias="UserVO" />
+  	
+  	</typeAliases>
+  	
+  
+  </configuration>
