@@ -55,7 +55,7 @@
 
 					<!-- 파일 업로드 폼 끝 -->
 					<div id="contentDiv">
-					
+					<!-- 
 					<div class="title-inner">
 						제목영역
 						<div class="profile">
@@ -84,7 +84,7 @@
 						<a href="##"><i class="glyphicon glyphicon-comment"></i>댓글달기</a> 
 						<a href="##"><i class="glyphicon glyphicon-remove"></i>삭제하기</a>
 					</div>
-					
+					 -->
 					</div>
 				</div>
 				<!--우측 어사이드-->
@@ -201,7 +201,7 @@
 				
 			}); // 등록이벤트 끝
 			
-			/* function getList() {
+			function getList() {
 				
 				var strAdd = "";
 				
@@ -245,7 +245,7 @@
 			
 			(function() {
 				getList();
-			})(); */
+			})();
 			
 		});
 	

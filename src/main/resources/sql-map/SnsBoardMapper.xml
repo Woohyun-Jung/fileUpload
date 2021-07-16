@@ -10,4 +10,8 @@
   		values(SNSBOARD_SEQ.NEXTVAL, #{writer}, #{content}, #{uploadPath}, #{fileLoca}, #{fileName}, #{fileRealName})
   	</insert>
   	
+  	<select id="getList" resultType="SnsBoardVO">
+  		select * from SNSBOARD order by bno desc
+  	</select>
+  	
   </mapper>
